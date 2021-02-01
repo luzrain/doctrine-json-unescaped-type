@@ -1,0 +1,12 @@
+{
+    "name": "luzrain/doctrine-json-unescaped-type",
+    "description": "Preventing json Doctrine type to escape unicode characters.",
+    "autoload": {
+        "psr-4": {
+            "Luzrain\\DoctrineJsonUnescapedType\\": "src/"
+        }
+    },
+    "require": {
+        "doctrine/dbal": "^3.0"
+    }
+}
