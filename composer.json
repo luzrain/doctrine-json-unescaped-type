@@ -1,12 +1,14 @@
 {
     "name": "luzrain/doctrine-json-unescaped-type",
     "description": "Preventing json Doctrine type to escape unicode characters.",
+	"type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Luzrain\\DoctrineJsonUnescapedType\\": "src/"
         }
     },
     "require": {
-        "doctrine/dbal": "^3.0"
+        "doctrine/dbal": "^2.6"
     }
 }
